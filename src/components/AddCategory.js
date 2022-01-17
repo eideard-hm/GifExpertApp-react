@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import PropTypes from 'prop-types';
 
 const AddCategory = ({ setCategories }) => {
@@ -20,7 +20,6 @@ const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>{inputValue}</h2>
             <input
                 type="text"
                 placeholder="Ingrese un dato..."
